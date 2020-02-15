@@ -1,6 +1,7 @@
-package ru.geekbrains.java3.lesson4.mt.p6_deadlock;
+package ru.geekbrains.java3.lesson4_multiThreding.mt6_deadlock;
 
 public class Example_Deadlock_1 {
+    // Deadlock это ситуация, когда два потока начинают ждать друг друга и никогда не долждутся
     private static final Object lock1 = new Object();
     private static final Object lock2 = new Object();
 

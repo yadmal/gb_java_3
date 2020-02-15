@@ -1,4 +1,4 @@
-package ru.geekbrains.java3.lesson4.mt.p5_synch_atm;
+package ru.geekbrains.java3.lesson4_multiThreding.mt5_atm;
 
 public class ATM {
     private int money;

@@ -1,6 +1,13 @@
-package ru.geekbrains.java3.lesson4.mt.p7_wait_and_notify;
+package ru.geekbrains.java3.lesson4_multiThreding.mt9_wait_and_notify;
 
 public class ABC {
+    // Хотим добиться распечатывания в виде АВСАВСАВС...
+    // Все потоки синхронизируются по одному монитору. Если поток видит, что сейчас не его время, то он уходит в режим
+    // ожидания по монитору mon.wait() и освобождает его. Если его - то,
+    // печатает букву и будит остальные потоки mon.notifyAll().
+    //
+    // Таким образом решается типичная задача производитель/потребитель
+
     static Object mon = new Object();
     static volatile char currentLetter = 'A';
 

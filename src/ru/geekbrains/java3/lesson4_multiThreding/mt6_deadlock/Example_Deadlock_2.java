@@ -1,4 +1,4 @@
-package ru.geekbrains.java3.lesson4.mt.p6_deadlock;
+package ru.geekbrains.java3.lesson4_multiThreding.mt6_deadlock;
 
 public class Example_Deadlock_2 {
     private static final Object lock1 = new Object();

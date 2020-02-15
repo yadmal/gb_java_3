@@ -1,4 +1,4 @@
-package ru.geekbrains.java3.lesson4_multiThreding.mt3_blocks;
+package ru.geekbrains.java3.lesson4_multiThreding.mt3_synchronized_blocks;
 
 public class Example_SB_2 {
 

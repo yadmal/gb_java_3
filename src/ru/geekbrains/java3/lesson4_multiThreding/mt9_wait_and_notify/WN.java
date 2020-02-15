@@ -1,6 +1,4 @@
-package ru.geekbrains.java3.lesson4.mt.p7_wait_and_notify;
-
-import java.util.ArrayList;
+package ru.geekbrains.java3.lesson4_multiThreding.mt9_wait_and_notify;
 
 public class WN {
     static Object mon = new Object();

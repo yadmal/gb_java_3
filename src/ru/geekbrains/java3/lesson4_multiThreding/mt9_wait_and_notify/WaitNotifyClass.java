@@ -1,4 +1,4 @@
-package ru.geekbrains.java3.lesson4.mt.p7_wait_and_notify;
+package ru.geekbrains.java3.lesson4_multiThreding.mt9_wait_and_notify;
 
 public class WaitNotifyClass {
     private final Object mon = new Object();
